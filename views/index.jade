@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    section.status
+        h1 MONEY Centralized&nbsp;Database
+        .success
+            p Database is up and running.
+            p All is well.
+
+    section.clients
+        h2 Connected clients
+        table
+            thead
+                tr
+                    th ID
+                    th Country
+                    th Last synchronisation
+            tbody
+                each client in clients
+                    tr(data-referer=client.url)
+                        td= client.id
+                        td= client.country
+                        td= client.lastSync.toUTCString()
