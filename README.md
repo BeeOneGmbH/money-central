@@ -3,7 +3,7 @@ money-central
 
 MONEY Centralized Database | __“MONEY – Your Financial Health Check”__
 
-The _MONEY Centralized Database_ — henceforth referred to as _MONEYcDB_ — is a central data exchange platform for the [MONEY Web Application](https://github.com/BeeOneGmbH/money) created by [BeeOne](https://www.beeone.at/vcard/) in Vienna, Austria for a core group of the European members of WSBI (World Savings and Retail Banks Institute) and ESBG (European Savings and Retail Banking Group).
+The _MONEY Centralized Database_ — henceforth referred to as _MONEYcDB_ — is a central data exchange platform for the [MONEY Web Application](https://github.com/BeeOneGmbH/money) created by [BeeOne](http://www.beeone.at/) in Vienna, Austria for a core group of the European members of WSBI (World Savings and Retail Banks Institute) and ESBG (European Savings and Retail Banking Group).
 
 
 Preparation
@@ -13,9 +13,9 @@ MONEYcDB can be hosted on a Linux or Windows server. There are no actual minimum
 
 ### Preparing the infrastructure
 
-* `MongoDB` ([http://www.mongodb.org/](http://www.mongodb.org/)) will be used for storing data:  
+* `MongoDB` ([http://www.mongodb.org/](http://www.mongodb.org/)) will be used for storing data:
   [http://docs.mongodb.org/manual/installation/](http://docs.mongodb.org/manual/installation/)
-* `nodejs` ([http://nodejs.org/](http://nodejs.org/)) will be used to serve the API that allows local installations of the MONEY Web Application to communicate with the MONEYcDB:  
+* `nodejs` ([http://nodejs.org/](http://nodejs.org/)) will be used to serve the API that allows local installations of the MONEY Web Application to communicate with the MONEYcDB:
   [http://nodejs.org/download/](http://nodejs.org/download/)
 * `npmjs` ([https://npmjs.org/](https://npmjs.org/)) will be needed to ensure that all additionally required software packages can be retrieved. `npmjs` should be already installed once you have `nodejs` installed.
 
